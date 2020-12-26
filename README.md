@@ -3,9 +3,9 @@ The game that is very hard to win over CPU, that's why you have two player mode 
 
 ## ❓ How to play ❔
 1. Clone this repo
-2. Open this repo folder in terminal
-3. Run the main.py file by typing `python main.py` in the terminal
-   
+2. Open the terminal and go to the repo folder
+3. Run main.py file by typing `python main.py` in terminal
+
 ## 🧾 Rules
 - Both players will chose a number between 1 to 10 one by one
 - Each of your choices will be added as a total number
