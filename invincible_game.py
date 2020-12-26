@@ -1,4 +1,5 @@
 import random
+import time
 
 SEQ = [12, 23, 34, 45, 56, 67, 78, 89]
 
@@ -6,6 +7,7 @@ def cpu_starts():
     cpu = 1
     total = 0
     while True:
+        time.sleep(1)
         print(f'\nCPU chooses: {cpu}')
         total += cpu
         print(f'Total: {total}')
@@ -47,6 +49,7 @@ def player_starts():
         else:
             cpu = 11 - num
 
+        time.sleep(1)
         print(f'\nCPU chooses: {cpu}')
         total += cpu
         print(f'Total: {total}')
